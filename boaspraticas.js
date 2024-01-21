@@ -1,6 +1,6 @@
 /*Desafios finais*/
 // 1 - Crie um programa que utilize o console.log para exibir uma mensagem de boas-vindas.
-/*let nome = prompt('qual seu nome? \nFn + F12 (Abra o console e tenha mais informaçoes)');
+let nome = prompt('qual seu nome? \nFn + F12 (Abra o console e tenha mais informaçoes)');
 console.log(`${nome}, seja bem-vindo!!`);
 console.log(`seu nome possui ${nome.length} letras`);
 
@@ -52,7 +52,7 @@ while(contador < 11 ){
 // 10 - Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
 console.log('QUESTÃO 10');
 let nota = 9.0;
-nota >= 7 ? console.log('APROVADO') : console.log('REPROVADO');*/
+nota >= 7 ? console.log('APROVADO') : console.log('REPROVADO');
 // 11 - Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 console.log('QUESTÃO 11');
 let numeroAleatorio = parseFloat(( Math.random() * 200 + 1).toFixed(2));
@@ -65,6 +65,3 @@ console.log(numeroAleatorioInt);
 console.log('QUESTÃO 13');
 let numeroAleatorioInt1a1000 = parseInt(Math.random() * 1000 + 1);
 console.log(numeroAleatorioInt1a1000);
-
-
-
